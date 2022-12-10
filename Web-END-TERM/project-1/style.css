@@ -1,0 +1,135 @@
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    background-image: linear-gradient(to right,rgb(245, 245, 127),rgb(248, 201, 48));
+    padding: 50px 100px;
+}
+
+
+
+.header_section{
+
+
+    background-image: url(./image/img.png);
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;  
+    justify-content: center;
+
+
+}
+
+
+main{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+article{
+    
+    width: 900px;
+    background-color: whitesmoke;
+    height: 900px;
+    overflow: scroll;
+
+
+}
+
+
+
+aside{
+    width: 420px;
+    height: 1000px;
+}
+
+
+
+section{
+    background-color: white;
+    margin-bottom: 30px;
+    /* border-radius: 5px; */
+}
+
+
+.head{
+    padding: 10px;
+    background-color: rgba(244, 242, 242, 0.623);
+    /* border-radius: 5px; */
+}
+
+
+.bo{
+    padding: 20px;
+}
+
+
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+button{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.books{
+
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 150px;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+
+
+article{
+    font-size: 30px;
+}
+
+
+.b{
+    padding: 50px;
+    font-size: 15px;
+}
+
+
+.h{
+    padding: 20px;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+#link{
+
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+}
